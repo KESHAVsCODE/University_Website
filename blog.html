@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4c0a6d5eb2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="mobile_nav.js" defer></script>
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <a href="index.html">
+          <img class="logo" src="images/logo.png" alt="University Logo" />
+        </a>
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="navbar"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Menu</span>
+        </button>
+        <nav>
+          <ul data-visible="false" id="navbar" class="navbar">
+            <li><a href="index.html"> HOME </a></li>
+            <li><a href="about.html"> ABOUT </a></li>
+            <li><a href="courses.html"> COURSE </a></li>
+            <li><a href="blog.html"> BLOG </a></li>
+            <li><a href="contact.html"> CONTACT </a></li>
+          </ul>
+        </nav>
+      </header>
+      <h2>Our Certificate & Online Programs For 2023</h2>
+    </section>
+
+    <section class="container-content blog">
+      <section>
+        <img src="images/certificate.jpg" alt="" />
+        <h3>Our Certificate & Online Programs For 2023</h3>
+        <p>
+          At our university, we understand the transformative power of
+          education. Through learning, students not only gain knowledge, but
+          also develop critical thinking skills, creativity, and the confidence
+          to achieve their goals.
+        </p>
+        <p>
+          Our certificate and online programs for 2023 offer students a flexible
+          and convenient way to enhance their education and advance their
+          career. With a wide range of programs designed to meet the demands of
+          today's job market, our experienced faculty and cutting-edge
+          curriculum provide students with the skills and knowledge needed to
+          succeed. Apply now to take advantage of these exciting opportunities.
+        </p>
+        <p>
+          We offer a variety of programs and resources to help students achieve
+          their goals, including career counseling, mentorship programs, and
+          internships. Our alumni network, which includes successful leaders in
+          various fields, serves as a testament to the quality of education and
+          experience we provide. Join our community dedicated to helping you
+          achieve your dreams.
+        </p>
+
+        <section class="comment-box">
+          <h3>Leave a comment</h3>
+          <form class="comment-form">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter Name"
+              maxlength="25"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Email"
+              maxlength="25"
+              required
+            />
+            <textarea
+              name="comment"
+              rows="5"
+              placeholder="Write Here"
+            ></textarea>
+            <button type="submit" class="explore-btn hero-btn">
+              POST COMMENT
+            </button>
+          </form>
+        </section>
+      </section>
+
+      <section class="blog-content">
+        <a>Post Categories</a>
+        <section>
+          <section>
+            <p>Business Analytics</p>
+            <p>Data Science</p>
+            <p>Machine Learning</p>
+            <p>Computer Science</p>
+            <p>AutoCAD</p>
+            <p>Journalism</p>
+            <p>Commerce</p>
+          </section>
+          <section>
+            <p>21</p>
+            <p>28</p>
+            <p>15</p>
+            <p>34</p>
+            <p>42</p>
+            <p>22</p>
+            <p>30</p>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <footer>
+      <section class="content-info">
+        <section>
+          <h3>About Us</h3>
+          <p>
+            Stay connected and up-to-date with our social media channels. Join
+            our global community<br />
+            and engage with fellow students and alumni.
+          </p>
+        </section>
+
+        <section class="social flex">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>

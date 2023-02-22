@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4c0a6d5eb2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="mobile_nav.js" defer></script>
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <a href="index.html">
+          <img class="logo" src="images/logo.png" alt="University Logo" />
+        </a>
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="navbar"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Menu</span>
+        </button>
+        <nav>
+          <ul data-visible="false" id="navbar" class="navbar">
+            <li><a href="index.html"> HOME </a></li>
+            <li><a href="about.html"> ABOUT </a></li>
+            <li><a href="courses.html"> COURSE </a></li>
+            <li><a href="blog.html"> BLOG </a></li>
+            <li><a href="contact.html"> CONTACT </a></li>
+          </ul>
+        </nav>
+      </header>
+      <h2>Our Courses</h2>
+    </section>
+
+    <section class="courses">
+      <section class="content-info">
+        <h2>Courses We Offer</h2>
+        <p>
+          we offer a wide range of courses to students from all over the world.
+        </p>
+      </section>
+
+      <section class="grid-columns">
+        <article class="content-type">
+          <h3>Intermediate</h3>
+          <p>
+            Our Intermediate program offers a wide range of courses in English,
+            Math, Science, and Social Studies, providing a strong foundation for
+            further studies and academic success.
+          </p>
+        </article>
+        <article class="content-type">
+          <h3>Degree</h3>
+          <p>
+            Our Degree program provides hands-on experience, internships, and
+            research opportunities, preparing students for the real world.
+          </p>
+        </article>
+        <article class="content-type">
+          <h3>Post Graduation</h3>
+          <p>
+            Our Post Graduation program offers advanced knowledge and skills,
+            research opportunities, and mentorship to prepare students for
+            leadership roles.
+          </p>
+        </article>
+      </section>
+    </section>
+
+    <section class="facilities">
+      <section class="content-info">
+        <h2>Our Facilities</h2>
+        <p>
+          Discover world-class facilities, including a library, playground, and
+          cafeteria, for your ultimate learning experience.
+        </p>
+      </section>
+
+      <section class="grid-columns">
+        <article class="feature-item">
+          <img src="images/library.png" alt="" />
+          <h3>World Class Library</h3>
+          <p>
+            Step into our library and explore a world of knowledge. Our
+            collection, comfortable seating, and expert librarians make it the
+            perfect place to study and discover.
+          </p>
+        </article>
+
+        <article class="feature-item">
+          <img src="images/basketball.png" alt="" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Get moving and connect with your fellow students on our playground.
+            From pick-up games to outdoor events, it's the perfect place to take
+            a break and have some fun.
+          </p>
+        </article>
+
+        <article class="feature-item">
+          <img src="images/cafeteria.png" alt="" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>
+            Savor every bite and enjoy the lively atmosphere of our cafeteria.
+            With a diverse menu of healthy and delicious options, it's the
+            perfect spot to refuel and socialize.
+          </p>
+        </article>
+      </section>
+    </section>
+
+    <footer>
+      <section class="content-info">
+        <section>
+          <h3>About Us</h3>
+          <p>
+            Stay connected and up-to-date with our social media channels. Join
+            our global community<br />
+            and engage with fellow students and alumni.
+          </p>
+        </section>
+
+        <section class="social flex">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4c0a6d5eb2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="mobile_nav.js" defer></script>
+  </head>
+
+  <!----------------------------------------------------- Home page of our website -------------------------------------------------------->
+
+  <body>
+    <section class="university-home" id="home">
+      <header>
+        <a href="index.html">
+          <img class="logo" src="images/logo.png" alt="University Logo" />
+        </a>
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="navbar"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Menu</span>
+        </button>
+        <nav>
+          <ul data-visible="false" id="navbar" class="navbar">
+            <li><a href="index.html"> HOME </a></li>
+            <li><a href="about.html"> ABOUT </a></li>
+            <li><a href="courses.html"> COURSE </a></li>
+            <li><a href="blog.html"> BLOG </a></li>
+            <li><a href="contact.html"> CONTACT </a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero-content">
+        <h1>World's Biggest University</h1>
+        <p>
+          Education is the key to unlocking a better future, and we are
+          dedicated to helping our <br />students achieve their full potential.
+        </p>
+        <a class="hero-btn" href="">Visit Us To Know More</a>
+      </section>
+    </section>
+
+    <main>
+      <section class="courses">
+        <section class="content-info">
+          <h2>Courses We Offer</h2>
+          <p>
+            we offer a wide range of courses to students from all over the
+            world.
+          </p>
+        </section>
+
+        <section class="grid-columns">
+          <article class="content-type">
+            <h3>Intermediate</h3>
+            <p>
+              Our Intermediate program offers a wide range of courses in
+              English, Math, Science, and Social Studies, providing a strong
+              foundation for further studies and academic success.
+            </p>
+          </article>
+          <article class="content-type">
+            <h3>Degree</h3>
+            <p>
+              Our Degree program provides hands-on experience, internships, and
+              research opportunities, preparing students for the real world.
+            </p>
+          </article>
+          <article class="content-type">
+            <h3>Post Graduation</h3>
+            <p>
+              Our Post Graduation program offers advanced knowledge and skills,
+              research opportunities, and mentorship to prepare students for
+              leadership roles.
+            </p>
+          </article>
+        </section>
+      </section>
+
+      <section class="campus">
+        <section class="content-info">
+          <h2>Our Global Campus</h2>
+          <p>Connect with students worldwide on our global campus.</p>
+        </section>
+
+        <section class="grid-columns">
+          <article class="feature-item">
+            <img src="images/campus1.png" alt="" />
+          </article>
+          <article class="feature-item">
+            <img src="images/campus2.png" alt="" />
+          </article>
+          <article class="feature-item">
+            <img src="images/campus3.png" alt="" />
+          </article>
+        </section>
+      </section>
+
+      <section class="facilities">
+        <section class="content-info">
+          <h2>Our Facilities</h2>
+          <p>
+            Discover world-class facilities, including a library, playground,
+            and cafeteria, for your ultimate learning experience.
+          </p>
+        </section>
+
+        <section class="grid-columns">
+          <article class="feature-item">
+            <img src="images/library.png" alt="" />
+            <h3>World Class Library</h3>
+            <p>
+              Step into our library and explore a world of knowledge. Our
+              collection, comfortable seating, and expert librarians make it the
+              perfect place to study and discover.
+            </p>
+          </article>
+
+          <article class="feature-item">
+            <img src="images/basketball.png" alt="" />
+            <h3>Largest Play Ground</h3>
+            <p>
+              Get moving and connect with your fellow students on our
+              playground. From pick-up games to outdoor events, it's the perfect
+              place to take a break and have some fun.
+            </p>
+          </article>
+
+          <article class="feature-item">
+            <img src="images/cafeteria.png" alt="" />
+            <h3>Tasty and Healthy Food</h3>
+            <p>
+              Savor every bite and enjoy the lively atmosphere of our cafeteria.
+              With a diverse menu of healthy and delicious options, it's the
+              perfect spot to refuel and socialize.
+            </p>
+          </article>
+        </section>
+      </section>
+
+      <section class="students-reviews">
+        <section class="content-info">
+          <h2>What Our Student Says</h2>
+          <p>Read student reviews and discover why we're the best choice.</p>
+        </section>
+
+        <section class="grid-columns">
+          <article class="content-type flex">
+            <img src="images/user1.png" alt="" />
+
+            <section>
+              <p>
+                Studying at this university has been an incredible experience.
+                The professors are knowledgeable and supportive, and the
+                facilities are top-notch. I feel well-prepared for my career.
+              </p>
+              <h3>Christine Berkley</h3>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </section>
+          </article>
+
+          <article class="content-type flex">
+            <img src="images/user2.jpg" alt="" />
+
+            <section>
+              <p>
+                I was impressed by the supportive community here. From the
+                orientation to the graduation ceremony, I felt like part of a
+                family. The university prepared me well for my career.
+              </p>
+              <h3>David Byer</h3>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </section>
+          </article>
+        </section>
+      </section>
+
+      <section class="contact-hero">
+        <h2>
+          Enroll For Our Various Online Courses <br />
+          Anywhere From The World
+        </h2>
+        <a class="hero-btn" href="">CONTACT US</a>
+      </section>
+    </main>
+
+    <footer>
+      <section class="content-info">
+        <section>
+          <h3>About Us</h3>
+          <p>
+            Stay connected and up-to-date with our social media channels. Join
+            our global community<br />
+            and engage with fellow students and alumni.
+          </p>
+        </section>
+
+        <section class="social flex">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>

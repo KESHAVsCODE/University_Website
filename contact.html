@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4c0a6d5eb2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="mobile_nav.js" defer></script>
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <a href="index.html">
+          <img class="logo" src="images/logo.png" alt="University Logo" />
+        </a>
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="navbar"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Menu</span>
+        </button>
+        <nav>
+          <ul data-visible="false" id="navbar" class="navbar">
+            <li><a href="index.html"> HOME </a></li>
+            <li><a href="about.html"> ABOUT </a></li>
+            <li><a href="courses.html"> COURSE </a></li>
+            <li><a href="blog.html"> BLOG </a></li>
+            <li><a href="contact.html"> CONTACT </a></li>
+          </ul>
+        </nav>
+      </header>
+      <h2>Contact Us</h2>
+    </section>
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198096.35063359345!2d-94.88851168814058!3d39.123417484358086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c08ce427cf3515%3A0xdc77777b70c31e05!2sKansas%20City%2C%20KS%2C%20USA!5e0!3m2!1sen!2sin!4v1676916985995!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="container-content">
+      <section class="contact-details">
+        <section class="address">
+          <i class="fa-solid fa-house"></i>
+          <div>
+            <h3>1723 Snowbird Lane, Jadewood Building</h3>
+            <p>Kansas City, Missouri, USA</p>
+          </div>
+        </section>
+        <section class="mobile-number">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <h3>+1 740-327-8235</h3>
+            <p>Monday to Saturday 10am to 6pm</p>
+          </div>
+        </section>
+        <section class="email">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <h3>support@university.com</h3>
+            <p>Email us your query</p>
+          </div>
+        </section>
+      </section>
+
+      <section class="comment-box send-details">
+          <h3>Contact Us</h3>
+          <form class="comment-form">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter Name"
+              maxlength="25"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Email"
+              maxlength="25"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Your Subject"
+              maxlength="25"
+              required
+            />
+            <textarea
+              name="comment"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
+            <button type="submit" class="explore-btn hero-btn">
+              Send Message
+            </button>
+          </form>
+        </section>
+      </section>
+    </section>
+
+    <footer>
+      <section class="content-info">
+        <section>
+          <h3>About Us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            quaerat sint rem obcaecati, <br />
+            excepturi neque veniam provident delectus explicabo voluptas!
+          </p>
+        </section>
+
+        <section class="social flex">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>
