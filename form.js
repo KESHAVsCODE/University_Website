@@ -4,6 +4,8 @@
     event.preventDefault();
     
     alert('Your message has been sent successfully!');
-    
+    if(myForm == null){
+      consol.log("NO");
+    }
     myForm.reset();
   });
