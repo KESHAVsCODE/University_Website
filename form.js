@@ -7,5 +7,7 @@
     if(myForm == null){
       consol.log("NO");
     }
+    else
+        consol.log("YES");
     myForm.reset();
   });
