@@ -2,12 +2,6 @@
   const myForm = document.querySelector(".contact-form");
   submitBtn.addEventListener('click', function(event) {
     event.preventDefault();
-    
     alert('Your message has been sent successfully!');
-    if(myForm == null){
-      consol.log("NO");
-    }
-    else
-        consol.log("YES");
     myForm.reset();
   });
